@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Camara Desenvolvedor</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      nav {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 0.5em gray;
+        background-color: white;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .container {
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      @media (max-width: 760px) {
+        .play_store {
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/Logo FII icone_Prancheta 1.png" width="50" alt="" />
+      <img src="./assets/logo_escrita.png" width="150" alt="" />
+    </nav>
+    <section>
+      <div class="container">
+        <h1>O que é Fiinances?</h1>
+        <p>
+          Um app focado em fornecer informações sobre proventos recebidos de
+          seus Fundos Imobiliários Algumas funcionalidades do nosso app são:
+        </p>
+        <ul>
+          <li>Histórico de proventos</li>
+          <li>Data de pagamento</li>
+          <li>Cotação em tempo real</li>
+          <li>Dados estatísticos da sua carteira</li>
+          <li>Informações sobre seus FI's</li>
+          <li>Integração com a B3</li>
+        </ul>
+        <a
+          class="play_store"
+          href="https://play.google.com/store/apps/details?id=com.company.fiinance"
+          target="_blank"
+        >
+          <img src="./assets/Box-google-play.png" alt="" />
+        </a>
+        <br />
+        <br />
+        <h1>Esclarecimentos</h1>
+        <p>
+          Nossa integração com a B3 funciona de ponta a ponta, sendo assim
+          nenhum informação do usuário fica salva em nossos servidores.
+        </p>
+        <p>Informações buscadas na B3 são:</p>
+        <ul>
+          <li>Lista de FI's</li>
+          <li>Quantidade de cada FI's</li>
+          <li>Valor da cota no momento da integração</li>
+          <li>Valor total aplicado em cada FI's</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
